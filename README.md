@@ -23,12 +23,16 @@ Running the application
 cf api <api>
 cf login -u <username> -p <password> -o <org> -s <space>
 ```
-#### 3. Edit Manifest
+#### 3. Bind to postgres service on CF
+```
+cf create-service postgresql v9.4-dev <serviceInstanceName>
+```
+#### 4. Edit Manifest
 
 Open the manifest.yml file and edit the following
-Replace <i-number> placeholders with your ```I/D/C numbers``` so that the application name and host name is unique in the CF landscape.
+Replace <serviceInstanceName> placeholder with the DB instance name created in previous step and <i/D/C number> placeholders with your ```I/D/C numbers``` so that the application name and host name is unique in the CF landscape.
 
-#### 4. Push the application
+#### 5. Push the application
 
 ```cf push -f manifest.yml```
 

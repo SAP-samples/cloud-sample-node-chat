@@ -4,14 +4,13 @@
   "scripts": {
     "start": "node app.js"
   },
-  "engines": {
-    "node": "6.15.1",
-    "npm": "3.10.10"
-  },
   "dependencies": {
     "ejs": "2.6.1",
     "express": "4.16.4",
     "gravatar": "1.8.0",
-    "socket.io": "2.2.0"
+    "socket.io": "2.2.0",
+    "pg": "*",
+    "cfenv": "1.0.x",
+    "pg-pool": "~1.5.0"
   }
 }
