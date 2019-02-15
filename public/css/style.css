@@ -1,0 +1,50 @@
+body{
+
+  background: -webkit-gradient(linear, left top, left bottom, from(#648880), to(#293f50)) fixed;
+}
+
+.box{
+	min-height: 500px;
+    width: 500px;
+    background-color: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+}
+
+.logo{
+	text-align: center;
+	margin-top: 75px;
+}
+
+.logo img{
+	padding: 10px;
+	width: 150px;
+}
+
+.chat-btn-holder{
+	text-align: center;
+	padding: 10px;
+}
+
+.chat-btn {
+color: #fff !important;
+text-transform: uppercase;
+background: #1E8DD6;
+padding: 20px;
+border-radius: 5px;
+display: inline-block;
+border: none;
+cursor: pointer;
+}
+
+.chat-btn:hover {
+background: #434343;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}

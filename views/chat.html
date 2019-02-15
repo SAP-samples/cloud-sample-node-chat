@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>chat room </title>
+      <link type="text/css" rel="stylesheet" href="../css/stylesheet.css" />
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans Condensed:300italic,300,700" rel="stylesheet" type="text/css">
+   </head>
+   <body>
+      <section class="section">
+         <!-- These elements are displayed as white info cards in the middle of the screen -->
+         <div class="connected">
+            <img src="../img/unnamed.png" id="creatorImage" />
+            <div class="infoConnected">
+               <h2>Login:</h2>
+               <br/>
+               <form class="loginForm simple-form">
+                  <input type="text" id="name1" placeholder="name" /><br/>
+                  <input type="text" id="email1" placeholder="email address" /><br/>
+                  <input type="submit" id="chat1Enter" value="ENTER" />
+               </form>
+            </div>
+         </div>
+         <div class="personinside">
+            <img src="../img/unnamed.png" id="ownerImage" />
+            <div class="infoInside">
+               <h2>Login:</h2>
+               <br/>
+               <form class="loginForm">
+                  <input type="text" id="name2" placeholder="name" /><br/>
+                  <input type="text" id="email2" placeholder="email address" /><br/>
+                  <input type="submit" id="chat2Enter" value="ENTER" />
+               </form>
+            </div>
+         </div>
+         <div class="invite-textfield">
+            <h2>Chat room is empty</h2>
+            <h5>Invite a friend by sending them this URL</h5>
+            <div class="link">
+               <a title="Invite a friend" href="" id="link"></a>
+            </div>
+         </div>
+         <div class="left">
+            <img src="../img/unnamed.png" id="leftImage" />
+            <div class="info">
+               <h2><span class="nickname-left"></span> has left this chat.</h2>
+               <h5>Invite somebody else by sending them this page.</h5>
+            </div>
+         </div>
+         <div class="roomFull">
+            <h5>There are already two people in the room. Would you like to create a <a title="New Room" href="/create" id="room">new room</a>?</h5>
+         </div>
+         <div class="nomessages">
+            <img src="../img/unnamed.png" />
+            <div class="info">
+               <h2><span class="nickname-chat"></span> is online</h2>
+            </div>
+         </div>
+         <div class="chatscreen">
+            <ul class="chats">
+               <!-- The chat messages will go here -->
+            </ul>
+         </div>
+      </section>
+      <footer>
+         <form id="chatform">
+            <textarea id="message" placeholder="Type a message"></textarea>
+            <input type="submit" id="submit" value="SEND"/>
+         </form>
+      </footer>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script src="../js/moment.min.js"></script>
+      <script src="/socket.io/socket.io.js"></script>
+      <script src="../js/chat.js"></script>
+   </body>
+</html>

@@ -1,0 +1,33 @@
+This program references the following third party open source or other free download components.
+The third party licensors of these components may provide additional license rights,
+terms and conditions and/or require certain notices as described below.
+
+Nodejs (https://nodejs.org/)
+Licensed under MIT - https://github.com/nodejs/node/blob/master/LICENSE
+
+EJS (https://ejs.co/)
+Licensed under the Apache License, version 2.0 - http://www.apache.org/licenses/LICENSE-2.0
+
+Express (https://expressjs.com/)
+Licensed under MIT - https://github.com/expressjs/express/blob/master/LICENSE
+
+Gravatar (https://en.gravatar.com/)
+Licensed under MIT - https://github.com/sinisterchipmunk/gravatar/blob/master/LICENSE
+
+Socket.io (https://socket.io)
+Licensed under MIT - https://github.com/socketio/socket.io/blob/master/LICENSE
+
+JQuery (https://jquery.com/)
+Licensed under MIT - https://github.com/jquery/jquery/blob/master/LICENSE.txt
+
+Moment.min.js (https://momentjs.com/)
+Licensed under MIT - https://github.com/moment/moment/blob/develop/LICENSE
+
+pg (https://node-postgres.com/)
+Licensed under MIT -https://github.com/brianc/node-postgres/blob/master/LICENSE
+
+cfenv (https://www.npmjs.com/package/cfenv)
+Licensed under the Apache License, version 2.0 - http://www.apache.org/licenses/LICENSE-2.0
+
+pg-pool (https://github.com/brianc/node-pg-pool)
+Licensed under MIT - https://github.com/brianc/node-pg-pool/blob/master/LICENSE
