@@ -17,7 +17,7 @@ Features:
 ## Download and Installation
 Running the application
 
-1. [Clone this repository](https://help.github.com/articles/cloning-a-repository/)
+1. [Clone](https://help.github.com/articles/cloning-a-repository/) this repository
 2. Login to Cloud Foundry by typing the below commands on command prompt
     ```
     cf api <api>
