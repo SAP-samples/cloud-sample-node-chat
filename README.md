@@ -2,11 +2,11 @@
 
 ## Description: 
 This is a simple chat application that is built on NodeJS. It uses socket.io library which enables real-time, event-based communication. It shows how socket.io rooms can be used to create different chat rooms.
-This application can be run locally as well as on cloud foundry landscape.  
+This application can be run locally as well as on Cloud Foundry landscape.  
 
 Features:
 * Login with name, email id.
-* Chat with a person who has logged into the same chat room. 
+* Chat with a user who has logged into the same chat room. 
 * Only 2 people are allowed per room. If more people enter, they will be directed to a different room.
 
 ## Requirements
@@ -23,11 +23,11 @@ Running the application
     cf api <api>
     cf login -u <username> -p <password> -o <org> -s <space> 
     ```
-    api - URL of the cloud Foundry landscape that you are trying to connect to.
+    `api` - URL of the Cloud Foundry landscape that you are trying to connect to.
     
 3. Edit Manifest
 
-    Open the manifest.yml file and replace <I/D/C numbers> placeholders with your ```I/D/C numbers``` so that the host name is unique in the CF landscape.
+    Open the manifest.yml file and replace <I/D/C numbers> placeholder with your ```I/D/C numbers``` so that the host name is unique in the CF landscape.
 
 4. Push the application
 
