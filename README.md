@@ -21,17 +21,23 @@ Running the application
 2. Login to Cloud Foundry by typing the below commands on command prompt
     ```
     cf api <api>
-    cf login -u <username> -p <password> -o <org> -s <space> 
+    cf login -u <username> -p <password> 
     ```
     `api` - URL of the Cloud Foundry landscape that you are trying to connect to.
     
+    `username` - Email address of your sap.com account.
+    
+    `passoword` - Your sap.com password
+    
+    Select the org and space when prompted to. For more information on the same refer [link](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/75125ef1e60e490e91eb58fe48c0f9e7.html#loio4ef907afb1254e8286882a2bdef0edf4).
+    
 3. Edit Manifest
 
-    Open the manifest.yml file and replace <I/D/C numbers> placeholder with your ```I/D/C numbers``` so that the host name is unique in the CF landscape.
+    Open the manifest.yml file and replace <I/D/C numbers> placeholder with your ```SAP User ID``` so that the host name is unique in the CF landscape. You can find your `SAP User ID` on your sap.com [profile](https://people.sap.com/#personal_info). 
 
 4. Push the application
 
-    ```cf push -f manifest.yml```
+    ```cf push```
 5. Once the application has been pushed successfully, open the URl in a web browser. 
 You can test by opening the same chat room in different browser tabs. 
 
