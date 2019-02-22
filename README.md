@@ -23,17 +23,16 @@ Running the application
     cf api <api>
     cf login -u <username> -p <password> 
     ```
-    `api` - URL of the Cloud Foundry landscape that you are trying to connect to.
+    `api` - [URL of the Cloud Foundry landscape](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html) that you are trying to connect to.
     
     `username` - Email address of your sap.com account.
-    
-    `passoword` - Your sap.com password
+    `password` - Your sap.com password
     
     Select the org and space when prompted to. For more information on the same refer [link](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/75125ef1e60e490e91eb58fe48c0f9e7.html#loio4ef907afb1254e8286882a2bdef0edf4).
     
 3. Edit Manifest
 
-    Open the manifest.yml file and replace <I/D/C numbers> placeholder with your ```SAP User ID``` so that the host name is unique in the CF landscape. You can find your `SAP User ID` on your sap.com [profile](https://people.sap.com/#personal_info). 
+   Open the manifest.yml file and replace <I/D/C numbers> placeholder with your *SAP User ID* so that the host name is unique in the CF landscape. You can find your *SAP User ID* in [your sap.com profile](https://people.sap.com/#personal_info).
 
 4. Push the application
 
