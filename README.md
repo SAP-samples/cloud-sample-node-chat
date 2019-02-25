@@ -40,6 +40,8 @@ Running the application
 5. Once the application has been pushed successfully, open the URl in a web browser. 
 You can test by opening the same chat room in different browser tabs. 
 
+## Known Issues
+No known issues.
 
 ## How to Obtain Support
 
