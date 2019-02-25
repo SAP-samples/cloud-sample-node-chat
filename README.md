@@ -1,7 +1,7 @@
 # NodeJS Chat Application
 
 ## Description: 
-This is a simple chat application that is built on NodeJS. It uses socket.io library which enables real-time, event-based communication. It shows how socket.io rooms can be used to create different chat rooms. It also shows how to save the user details, chats into a postgreSQL service available on Cloud Foundry
+This is a simple chat application that is built on NodeJS. It uses socket.io library which enables real-time, event-based communication. It shows how socket.io rooms can be used to create different chat rooms. It also shows how to save the user details, chats into a postgreSQL service available on Cloud Foundry.
 This application can be run locally as well as on Cloud Foundry landscape.  
 
 Features:
@@ -34,11 +34,11 @@ Running the application
    ```
    cf create-service postgresql v9.4-dev <serviceInstanceName>
    ```
-   here, `v9.4-dev` is the service plan.
-   `serviceInstanceName` can be aby name that is unique in your space. 
+   `v9.4-dev` is the service plan.   
+   `serviceInstanceName` can be be any name that is unique in your space. 
 4. Edit Manifest
 
-   Open the manifest.yml file. Replace <serviceInstanceName> placeholder with the DB instance name created in step 3. Replace <I/D/C numbers> placeholder with your *SAP User ID* so that the host name is unique in the CF landscape. You can find your *SAP User ID* in [your sap.com profile](https://people.sap.com/#personal_info).
+   Open the manifest.yml file. Replace `<serviceInstanceName>` placeholder with the DB instance name created in step 3. Replace `<I/D/C numbers>` placeholder with your *SAP User ID* so that the host name is unique in the CF landscape. You can find your *SAP User ID* in [your sap.com profile](https://people.sap.com/#personal_info).
 
 5. Push the application
 
