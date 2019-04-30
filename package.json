@@ -4,10 +4,6 @@
   "scripts": {
     "start": "node app.js"
   },
-  "engines": {
-    "node": "6.15.1",
-    "npm": "3.10.10"
-  },
   "dependencies": {
     "ejs": "2.6.1",
     "express": "4.16.4",
