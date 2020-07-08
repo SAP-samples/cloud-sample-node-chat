@@ -5,7 +5,7 @@ This is a simple chat application that is built on NodeJS. It uses socket.io lib
 This application can be run locally as well as on Cloud Foundry landscape.  
 
 Features:
-* Login with name, email id.
+* Login with name, email Id.
 * Chat with a user who has logged into the same chat room. 
 * Only 2 people are allowed per room. If more people enter, they will be directed to a different room.
 
