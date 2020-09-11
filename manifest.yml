@@ -1,7 +1,6 @@
 ---
 applications:
 - name: chat
-  host: <I/D/C numbers>-chat
   path: .
   memory: 128M
   buildpack: nodejs_buildpack
