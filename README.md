@@ -1,4 +1,5 @@
 # NodeJS Chat Application
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/cloud-sample-node-chat)](https://api.reuse.software/info/github.com/SAP-samples/cloud-sample-node-chat)
 
 ## Description: 
 This is a simple chat application that is built on NodeJS. It uses socket.io library which enables real-time, event-based communication. It shows how socket.io rooms can be used to create different chat rooms.
