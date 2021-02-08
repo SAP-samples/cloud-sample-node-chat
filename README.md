@@ -13,7 +13,7 @@ Features:
 ## Requirements
 - [Node js](https://nodejs.org/en/download/)
 - [Cloud Foundry Command Line Interface (CLI)](https://github.com/cloudfoundry/cli#downloads)
-- Cloud Foundry trial or enterprise account, [sign up for a Cloud Foundry environment trial account on SAP Cloud Platform](https://developers.sap.com/tutorials/hcp-create-trial-account.html)
+- Cloud Foundry trial or enterprise account, [sign up for a Cloud Foundry environment trial account on SAP Business technology Platform(https://developers.sap.com/tutorials/hcp-create-trial-account.html)
    
 ## Download and Installation
 Running the application
